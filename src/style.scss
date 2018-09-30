@@ -89,10 +89,7 @@ $darkbackground: #352624;
             box-shadow: 3px 3px 3px $border,
                 1px 1px 1px opacify($border, 0.1);
         }
-        &.ui-state-focus a {
-            color: $green;
-        }
-        
+       
         &:focus {
             outline: none;
         }
@@ -103,7 +100,6 @@ $darkbackground: #352624;
             
             &:focus {
                 outline: none;
-                color: $green;
                 text-decoration: none;
             }
             span {
